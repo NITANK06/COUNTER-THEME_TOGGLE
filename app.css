@@ -1,0 +1,42 @@
+body.light {
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+body.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.app-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.counter {
+  margin-top: 30px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 12px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+}
+
+body.light .buttons button {
+  background-color: #007bff;
+  color: white;
+}
+
+body.dark .buttons button {
+  background-color: #ff9800;
+  color: blue;
+}
+
+button:hover {
+  opacity: 0.8;
+}
